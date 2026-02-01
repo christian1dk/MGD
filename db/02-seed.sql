@@ -22,4 +22,14 @@ INSERT IGNORE INTO job_postings (id, title, description, company, location, job_
 (17, 'Dataanalytiker', 'Hjælp os med at forstå vores data bedre.', 'InsightGroup', 'København', 'Fuldtid', 0, '2026-02-01 10:00:00'),
 (18, 'Kundeservice', 'Besvar opkald og e-mails fra vores glade kunder.', 'ServiceFirst', 'Horsens', 'Deltid', 0, '2026-02-01 11:15:00'),
 (19, 'Grafisk Designer', 'Skab visuelt indhold til web og print.', 'CreativeMind', 'Aarhus', 'Praktik', 0, '2026-02-01 12:00:00'),
-(20, 'Sikkerhedsspecialist', 'Sikr vores systemer mod udefrakommende trusler.', 'CyberSafe', 'København', 'Fuldtid', 1, '2026-02-01 12:30:00');
+(20, 'Sikkerhedsspecialist', 'Sikr vores systemer mod udefrakommende trusler.', 'CyberSafe', 'København', 'Fuldtid', 1, '2026-02-01 12:30:00'),
+(21, 'Systemudvikler', 'Vi søger en erfaren systemudvikler til komplekse systemer.', 'TechSolutions', 'Aarhus', 'Fuldtid', 1, '2026-02-01T13:00:00'),
+(22, 'Systemudvikler', 'Vær med til at bygge fremtidens backend.', 'CodeBuilders', 'København', 'Fuldtid', 1, '2026-02-01T13:10:00'),
+(23, 'Systemudvikler', 'Brænder du for arkitektur og systemdesign?', 'Systemics', 'Odense', 'Kontrakt', 1, '2026-02-01T13:20:00'),
+(24, 'Systemudvikler', 'Hjælp os med at optimere vores interne systemer.', 'BizTools', 'Aalborg', 'Fuldtid', 0, '2026-02-01T13:30:00'),
+(25, 'Systemudvikler', 'Senior udvikler søges til spændende projekter.', 'ProjectMasters', 'Aarhus', 'Fuldtid', 0, '2026-02-01T13:40:00'),
+(26, 'Systemudvikler', 'Junior udvikler med lyst til at lære mere.', 'StartupHub', 'København', 'Praktik', 0, '2026-02-01T13:50:00'),
+(27, 'Systemudvikler', 'Ekspert i skalerbare systemløsninger.', 'GlobalTech', 'Hellerup', 'Fuldtid', 1, '2026-02-01T14:00:00'),
+(28, 'Systemudvikler', 'Arbejd remote med de nyeste teknologier.', 'RemoteFirst', 'Remote', 'Fuldtid', 1, '2026-02-01T14:10:00'),
+(29, 'Systemudvikler', 'Vi udvider vores core team i Randers.', 'RandersSoft', 'Randers', 'Fuldtid', 0, '2026-02-01T14:20:00'),
+(30, 'Systemudvikler', 'Systemudvikler med fokus på sikkerhed og stabilitet.', 'SecureSafe', 'København', 'Fuldtid', 0, '2026-02-01T14:30:00');
