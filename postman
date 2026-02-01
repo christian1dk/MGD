@@ -329,6 +329,40 @@
           "response": []
         }
       ]
+    },
+    {
+      "name": "3) Opret et jobopslag",
+      "item": [
+        {
+          "name": "POST Create Job",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"title\": \"Ny PHP Udvikler\",\n    \"description\": \"Vi sÃ¸ger en passioneret PHP-udvikler til vores hold.\",\n    \"company\": \"Media Group Denmark\",\n    \"location\": \"Aarhus\",\n    \"job_type\": \"Fuldtid\",\n    \"is_remote\": true\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8080/api/jobs",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "api",
+                "jobs"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
     }
   ]
 }
