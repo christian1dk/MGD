@@ -28,3 +28,8 @@ For at stoppe og fjerne containerne skal du køre:
 ```bash
 docker-compose down
 ```
+
+# Postman Installation
+- [Postman](https://www.postman.com/)
+- import postman.json
+- test endpoints
